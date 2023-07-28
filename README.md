@@ -42,7 +42,6 @@
 ]
 <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
 </body>
-<!DOCTYPE html>
 <html>
 <head>
   <title>Flying Bird Animation</title>
