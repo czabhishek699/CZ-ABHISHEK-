@@ -60,53 +60,7 @@
         <input type="submit" value="Submit">
     </form>
 </body>
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Public Comment System</title>
-</head>
-<body>
-    <h1>Comments</h1>
-    <ul id="commentsList">
-        <!-- Existing comments will be displayed here -->
-    </ul>
 
-    <h2>Add a Comment</h2>
-    <form onsubmit="submitComment(event)">
-        <label for="comment">Your Comment:</label><br>
-        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
-        <input type="submit" value="Submit">
-    </form>
-
-    <script src="script.js"></script>
-</body>
-</html>
-function submitComment(event) {
-  event.preventDefault();
-  const commentInput = document.getElementById("comment");
-  const commentText = commentInput.value;
-
-  // Create a new list item to display the comment
-  const newCommentItem = document.createElement("li");
-  newCommentItem.textContent = commentText;
-
-  // Add the new comment to the comments list
-  const commentsList = document.getElementById("commentsList");
-  commentsList.appendChild(newCommentItem);
-
-  // Clear the input field
-  commentInput.value = "";
-
-  // Send the comment to the server using an API call (Not implemented in this example)
-  // You'll need a server-side script (e.g., PHP) to handle storing the comments in a database
-}
-?php
-if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["comment"])) {
-    // Get the comment from the POST data
-    $comment = $_POST["comment"];
-
-    // Store the comment in a database or any other desired action
 
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
