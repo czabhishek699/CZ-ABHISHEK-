@@ -54,9 +54,9 @@
   </style>
 </head>
 <body>
-  <div id="bird">ITS ME CZ ABHISHEK 🤠</div>
+  <div id="bird">🇳🇵</div>
 
-  <script>
+  <scr
     function flyBird() {
       const bird = document.getElementById("bird");
       const screenWidth = window.innerWidth;
@@ -78,6 +78,19 @@
 
     flyBird();
   </script>
+</body>
+</html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="submit_feedback.php" method="post">
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
 
