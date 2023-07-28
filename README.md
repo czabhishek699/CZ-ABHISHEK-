@@ -42,6 +42,45 @@
 ]
 <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
 </body>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flying Bird Animation</title>
+  <style>
+    #bird {
+      position: absolute;
+      top: 100px;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="bird">🐦</div>
+
+  <script>
+    function flyBird() {
+      const bird = document.getElementById("bird");
+      const screenWidth = window.innerWidth;
+      let birdLeft = 0;
+
+      function moveBird() {
+        birdLeft += 5; // Change this value to adjust the bird's speed
+        bird.style.left = birdLeft + "px";
+
+        if (birdLeft > screenWidth) {
+          birdLeft = -100; // Reset the bird's position to the left side of the screen
+        }
+
+        requestAnimationFrame(moveBird);
+      }
+
+      moveBird();
+    }
+
+    flyBird();
+  </script>
+</body>
+</html>
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
