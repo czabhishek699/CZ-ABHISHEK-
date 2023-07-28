@@ -26,7 +26,7 @@
 <ul class="wp-block-social-links aligncenter">
 
 
-
+<p style="color:red;">
 
 <html>
 <head>
@@ -80,6 +80,7 @@
   </script>
 </body>
 </html>
+</p>
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
