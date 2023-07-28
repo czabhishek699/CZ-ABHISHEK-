@@ -45,16 +45,13 @@
 <html>
 <head>
   
-  </style>
+  
 </head>
 <body>
   </script>
 </body>
 </html>
-<html>
-<head>
-    <title>Feedback Form</title>
-</head>
+
 <body>
     <h1>Feedback Form</h1>
     <form action="submit_feedback.php" method="post">
@@ -63,7 +60,7 @@
         <input type="submit" value="Submit">
     </form>
 </body>
-</html>
+
 
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
