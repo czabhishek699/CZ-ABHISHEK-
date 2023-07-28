@@ -54,7 +54,7 @@
   </style>
 </head>
 <body>
-  <div id="bird">🐦</div>
+  <div id="bird">ITS ME CZ ABHISHEK 🤠</div>
 
   <script>
     function flyBird() {
