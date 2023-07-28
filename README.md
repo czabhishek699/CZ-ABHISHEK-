@@ -16,7 +16,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":18}}} -->
-<p class="has-text-align-center" style="font-size:18px">I'm a beginner software developer, who also thrives as an avid blogger and digital media strategist. I get excited about new projects and ideas. Let's connect!</p>
+<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is Avishek Ojha currently living in Jhapa,Nepal. Let's connect!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"align":"center"} -->
