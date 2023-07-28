@@ -19,14 +19,14 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":18}}} -->
-<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is Avishek Ojha currently living in Jhapa,Nepal. Let's connect!</p>
+<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is<p style="color:red;">
+ Avishek Ojha</p>. I'm currently living in Jhapa,Nepal. Let's connect!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"align":"center"} -->
 <ul class="wp-block-social-links aligncenter">
 
 
-<p style="color:red;">
 
 <html>
 <head>
@@ -80,7 +80,7 @@
   </script>
 </body>
 </html>
-</p>
+
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
