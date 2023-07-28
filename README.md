@@ -1,3 +1,6 @@
+<body style="background-color: lightblue;">
+ 
+
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -38,7 +41,7 @@
 
 ]
 <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
-
+</body>
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
