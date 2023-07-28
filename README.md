@@ -37,6 +37,8 @@
   
 
 ]
+<a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
+
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
