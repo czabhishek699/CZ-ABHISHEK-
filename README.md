@@ -44,39 +44,10 @@
 </body>
 <html>
 <head>
-  <title>Flying Bird Animation</title>
-  <style>
-    #bird {
-      position: absolute;
-      top: 100px;
-      left: 0;
-    }
+  
   </style>
 </head>
 <body>
-  <div id="bird">🇳🇵</div>
-
-  <scr
-    function flyBird() {
-      const bird = document.getElementById("bird");
-      const screenWidth = window.innerWidth;
-      let birdLeft = 0;
-
-      function moveBird() {
-        birdLeft += 5; // Change this value to adjust the bird's speed
-        bird.style.left = birdLeft + "px";
-
-        if (birdLeft > screenWidth) {
-          birdLeft = -100; // Reset the bird's position to the left side of the screen
-        }
-
-        requestAnimationFrame(moveBird);
-      }
-
-      moveBird();
-    }
-
-    flyBird();
   </script>
 </body>
 </html>
