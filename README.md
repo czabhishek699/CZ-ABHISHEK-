@@ -42,7 +42,9 @@
 
 <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
 </body>
-
+<a href="path_to_your_app_file.apk" download>
+  Download Your App
+</a>
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
