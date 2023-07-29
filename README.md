@@ -19,8 +19,8 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":18}}} -->
-<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is  style="color:red;">
- Avishek Ojha. I'm currently living in Jhapa,Nepal. Let's connect!</p>
+<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is  <style="color:red;"
+ Avishek Ojha>. I'm currently living in Jhapa,Nepal. Let's connect!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"align":"center"} -->
