@@ -107,7 +107,9 @@
   <a href="#home">Home</a>
   <a href="#about">About</a>
   <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
+  <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
+</p>                           
+ 
 </div>
 
 
