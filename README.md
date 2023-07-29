@@ -47,7 +47,7 @@
 <a href="czabhishek699/CZ-ABHISHEK-/blob/main/app2757290-xomk9w.apk" download>
   Download our App
 </a>
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Website with Slide-in Sidebar</title>
@@ -110,10 +110,7 @@
   <a href="#contact">Contact</a>
 </div>
 
-<div class="content">
-  <h1>Welcome to my website!</h1>
-  <p>This is the main content of the website. You can add more content here.</p>
-</div>
+
 
 <div class="toggle-btn" onclick="toggleSidebar()">
   <span>&#9776;</span> <!-- Hamburger icon -->
