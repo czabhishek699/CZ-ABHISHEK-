@@ -19,8 +19,8 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":18}}} -->
-<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is<p style="color:red;">
- Avishek Ojha</p>. I'm currently living in Jhapa,Nepal. Let's connect!</p>
+<p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is  style="color:red;">
+ Avishek Ojha. I'm currently living in Jhapa,Nepal. Let's connect!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"align":"center"} -->
@@ -34,33 +34,14 @@
 </head>
 <body>
     <a href="https://www.facebook.com/rbabhishek10?mibextid=b06tZ0" target="_blank">Facebook</a>
-    <head>[
+    <head><p
 
 <a href="https://www.appcreator24.com/app2757290-xomk9w" target="_blank">DOWNLOAD OUR APP</a></head>
   
 
-]
+</p>
 <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
 </body>
-<html>
-<head>
-  
-  
-</head>
-<body>
- 
-</body>
-</html>
-
-<body>
-    <h1>Feedback Form</h1>
-    <form action="submit_feedback.php" method="post">
-        <label for="feedback">Your Feedback:</label><br>
-        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br>
-        <input type="submit" value="Submit">
-    </form>
-</body>
-
 
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
