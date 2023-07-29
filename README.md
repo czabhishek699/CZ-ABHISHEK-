@@ -102,6 +102,74 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website with Sidebar</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      padding-top: 20px;
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar.hidden {
+      transform: translateX(-250px);
+    }
+
+    .sidebar a {
+      display: block;
+      color: #fff;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #555;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar" id="sidebar">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" onclick="closeSidebar()">Close</a>
+</div>
+
+<div class="content">
+  <h1>Welcome to my website!</h1>
+  <p>This is the main content of the website. You can add more content here.</p>
+</div>
+
+<script>
+  function closeSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.classList.add('hidden');
+  }
+</script>
+
+</body>
+</html>
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
 </footer>
