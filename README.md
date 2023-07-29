@@ -47,7 +47,87 @@
 <a href="czabhishek699/CZ-ABHISHEK-/blob/main/app2757290-xomk9w.apk" download>
   Download our App
 </a>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website with Slide-in Sidebar</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
 
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      right: -250px; /* Start off-screen */
+      background-color: #333;
+      padding-top: 20px;
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar.active {
+      right: 0; /* Slide in when active */
+    }
+
+    .sidebar a {
+      display: block;
+      color: #fff;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #555;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .toggle-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar" id="sidebar">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="content">
+  <h1>Welcome to my website!</h1>
+  <p>This is the main content of the website. You can add more content here.</p>
+</div>
+
+<div class="toggle-btn" onclick="toggleSidebar()">
+  <span>&#9776;</span> <!-- Hamburger icon -->
+</div>
+
+<script>
+  function toggleSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
 
 <footer>
 <p>&copy; 2023 Avishek Ojha. All rights reserved.</p>
