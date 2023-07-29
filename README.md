@@ -8,7 +8,7 @@
     <img id="logoImage" src="" alt="Website Logo">
 
     <!-- Replace "https://drive.google.com/file/d/13rKFbUd-y8jEF0XeKK81hRkOjzmrGzgU/view?usp=drivesdk" with the Google Drive link to your new logo image -->
-    <button onclick="addLogo('YOUR_DRIVE_LINK')">Add Logo</button>
+    <button onclick="addLogo('https://drive.google.com/file/d/13rKFbUd-y8jEF0XeKK81hRkOjzmrGzgU/view?usp=drivesdk')">Add Logo</button>
 
     <script>
         function addLogo(newLogoLink) {
