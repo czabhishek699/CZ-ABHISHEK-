@@ -20,7 +20,7 @@
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":18}}} -->
 <p class="has-text-align-center" style="font-size:18px">Hey,There🤠| My Name is
- Avishek Ojha. I'm currently living in Jhapa,Nepal. Let's connect!</p>
+<b> Avishek Ojha</b>. I'm currently living in Jhapa,Nepal. Let's connect!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"align":"center"} -->
