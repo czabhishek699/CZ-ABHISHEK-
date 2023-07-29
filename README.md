@@ -1,3 +1,25 @@
+
+<html>
+<head>
+    <title>Dynamic Website Logo</title>
+</head>
+<body>
+    <!-- The initial logo will be blank initially -->
+    <img id="logoImage" src="" alt="Website Logo">
+
+    <!-- Replace "https://drive.google.com/file/d/13rKFbUd-y8jEF0XeKK81hRkOjzmrGzgU/view?usp=drivesdk" with the Google Drive link to your new logo image -->
+    <button onclick="addLogo('YOUR_DRIVE_LINK')">Add Logo</button>
+
+    <script>
+        function addLogo(newLogoLink) {
+            var logoImage = document.getElementById('logoImage');
+            logoImage.src = newLogoLink;
+        }
+    </script>
+</body>
+</html>
+
+
 <body style="background-color: lightblue;">
  
 
