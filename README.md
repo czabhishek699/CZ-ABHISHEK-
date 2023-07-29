@@ -104,7 +104,7 @@
 <body>
 
 <div class="sidebar" id="sidebar">
-  <a href="#home">Home</a>
+  <a href="https://avishekojha.com.np"=#home">Home</a>
   <a href="#about">About</a>
   <a href="#services">Services</a>
   <a href="mailto:avishekojha66@gmail.com" class="contact-link">Contact Me Via Mail</a>
