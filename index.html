@@ -130,6 +130,76 @@
 
 </body>
 </html>
+ ++++++++++++++++    
+<html>
+<head>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <script>
+        const canvas = document.getElementById("gameCanvas");
+        const context = canvas.getContext("2d");
+
+        const snakeSize = 10;
+        let snake = [{ x: 50, y: 50 }];
+        let food = { x: 200, y: 200 };
+        let direction = "right";
+
+        function drawSnake() {
+            context.fillStyle = "green";
+            snake.forEach(segment => {
+                context.fillRect(segment.x, segment.y, snakeSize, snakeSize);
+            });
+        }
+
+        function drawFood() {
+            context.fillStyle = "red";
+            context.fillRect(food.x, food.y, snakeSize, snakeSize);
+        }
+
+        function gameLoop() {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            if (direction === "right") {
+                snake[0].x += snakeSize;
+            } else if (direction === "left") {
+                snake[0].x -= snakeSize;
+            } else if (direction === "up") {
+                snake[0].y -= snakeSize;
+            } else if (direction === "down") {
+                snake[0].y += snakeSize;
+            }
+
+            drawSnake();
+            drawFood();
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        document.addEventListener("keydown", event => {
+            if (event.key === "ArrowRight" && direction !== "left") {
+                direction = "right";
+            } else if (event.key === "ArrowLeft" && direction !== "right") {
+                direction = "left";
+            } else if (event.key === "ArrowUp" && direction !== "down") {
+                direction = "up";
+            } else if (event.key === "ArrowDown" && direction !== "up") {
+                direction = "down";
+            }
+        });
+
+        gameLoop();
+    </script>
+</body>
+</html>
 
      
 
