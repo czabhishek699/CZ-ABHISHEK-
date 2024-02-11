@@ -201,6 +201,8 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  position: relative;
+  top:-10rem;
 }
 
 .home__title-color {
