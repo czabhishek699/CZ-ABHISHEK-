@@ -1,6 +1,6 @@
 # CZ ABHISHEK
 
-Welcome to the repository for CZ ABHISHEK hosted on [Avishek Ojha](https://avishekojha.com.np). This README is here to address privacy concerns and outline responsibilities.
+Welcome to the repository for CZ ABHISHEK hosted on [CZ ABHISHEK](https://avishekojha.com.np). This README is here to address privacy concerns and outline responsibilities.
 
 ## Privacy Concerns
 
