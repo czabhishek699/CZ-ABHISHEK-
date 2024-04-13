@@ -17,7 +17,7 @@ Welcome to the repository for CZ ABHISHEK hosted on [CZ ABHISHEK](https://avishe
 
 ## Contributing
 
-- Contributions to CZ ABHISHEK are welcome! Please contact CZ ABHISHEK  [here](https://avishekojha.com.np) before submitting any changes.
+- Contributions to CZ ABHISHEK are welcome! Please contact CZ ABHISHEK  [here](https://avishekojha.com.np/#contact) before submitting any changes.
 
 ## Contact
 
