@@ -249,10 +249,13 @@ img {
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
+  border: 2px solid var(--first-color);
   transition: .3s;
 }
 
 .button:hover {
+  color: var(--first-color);
+  background-color:#fff;
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
