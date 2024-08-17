@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-5761105565582899">
     <title>Programming Questions & Answers - C Language</title>
     <style>
         /* Basic Reset */
@@ -18,6 +19,12 @@
             background-color: #f4f4f4;
             color: #333;
         }
+
+        #question {
+        height: 35px;
+        border: 1px solid #ddd;
+        padding-left: 10px;
+    }
 
         /* Container */
         .container {
@@ -165,6 +172,9 @@
 .subscribe button:hover {
     background-color: #0056b3;
 }
+.che{
+    display: inline;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -178,7 +188,6 @@
 }
 
     </style>
-</head>
 <body>
     <header>
         <div class="container">
@@ -186,12 +195,12 @@
             <p class="credit">by <a href="https://avishekojha.com.np" target="_blank"><span style="color: #007bff;">Avishek Ojha</span></a></p>
         </div>
     </header>
-
+   
     <main class="container">
         <section class="question-answer">
             <h2>Question 1: WAP to read a number and find even or odd</h2>
             <p class="description">This program reads a number from the user and determines if it is even or odd.</p>
-            <div class="code-block">
+            <div id="q1" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num, rem;
@@ -211,7 +220,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 2: WAP input any two numbers and display the largest one</h2>
             <p class="description">This program reads two numbers from the user and displays the largest one.</p>
-            <div class="code-block">
+            <div id="q2" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num1, num2;
@@ -234,7 +243,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 3: WAP to find the largest number among three input numbers</h2>
             <p class="description">This program reads three numbers from the user and determines the largest one.</p>
-            <div class="code-block">
+            <div id="q3" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num1, num2, num3;
@@ -261,7 +270,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 4: WAP which reads any two integer values from user and calculates sum, difference, and product using switch case statement</h2>
             <p class="description">This program reads two integers from the user and calculates their sum, difference, or product based on the user's choice using a switch case statement.</p>
-            <div class="code-block">
+            <div id="q4" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num1, num2, choice;
@@ -599,7 +608,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 20: WAP to display all perfect square numbers from 100 to 500</h2>
             <p class="description">This program displays all perfect square numbers between 100 and 500.</p>
-            <div class="code-block">
+            <div id="q20" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 #include &lt;math.h&gt;
 int main() {
@@ -619,13 +628,16 @@ int main() {
     <section class="subscribe">
         <div class="container">
             <h2>Stay Updated From Avishek Ojha</h2>
+            
             <p>Please enter your email address to get notified about future updates:</p>
             <form action="https://formsubmit.co/mail@avishekojha.com.np" method="post">
                 <input type="email" name="Email" placeholder="Your Email Address" required>
                 <input type="hidden" name="_next" value="https://avishekojha.com.np/computer-project">
                 <input type="hidden" name="_autoresponse" value="Thank you for supporting us - Avishek Ojha">
                 <input type="hidden" name="_template" value="table">
-
+                <input class="che" type="checkbox" name="checkbox" required>
+                <p class="che">By clicking to checkbox you agree <a href="tac.html">Terms and conditions</a></p>
+                
                 <button type="submit">Subscribe</button>
             </form>
         </div>
