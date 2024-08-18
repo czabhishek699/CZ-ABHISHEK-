@@ -186,12 +186,130 @@
         width: 100%;
     }
 }
+  /* Basic styles */
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
+        /* Header styles */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Sidebar menu */
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: -250px;
+            background-color: #333;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        /* Hamburger icon */
+        .hamburger {
+            font-size: 30px;
+            cursor: pointer;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: white;
+        }
+
+        /* Close button inside the sidebar */
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-size: 36px;
+            margin-left: 50px;
+            color: white;
+        }
+
+        /* Main content */
+        .main-content {
+            margin-left: 0;
+            transition: margin-left 0.3s;
+            padding: 20px;
+        }
+
+        /* Media query for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidebar { padding-top: 15px; }
+            .sidebar a { font-size: 18px; }
+        }
     </style>
+     <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.left = "0";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.left = "-250px";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
 <body>
+    <div class="header">
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+       
+    </div>
+
+    <!-- Sidebar -->
+    <div id="mySidebar" class="sidebar">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        Author:<a href="https://avishekojha.com.np">Developer - Avishek Ojha</a>
+        <a href="#q1">Q. no 1</a>
+        <a href="#q2">Q. no 2</a>
+        <a href="#q3">Q. no 3</a>
+        <a href="#q4">Q. no 4</a>
+        <a href="#q5">Q. no 5</a>
+        <a href="#q6">Q. no 6</a>
+        <a href="#q7">Q. no 7</a>
+        <a href="#q8">Q. no 8</a>
+        <a href="#q9">Q. no 9</a>
+        <a href="#q10">Q. no 10</a>
+        <a href="#q11">Q. no 11</a>
+        <a href="#q12">Q. no 12</a>
+        <a href="#q13">Q. no 13</a>
+        <a href="#q14">Q. no 14</a>
+        <a href="#q15">Q. no 15</a>
+        <a href="#q16">Q. no 16</a>
+        <a href="#q17">Q. no 17</a>
+        <a href="#q18">Q. no 18</a>
+        <a href="#q19">Q. no 19</a>
+        <a href="#q20">Q. no 20</a>
+       
+    </div>
+
     <header>
         <div class="container">
-            <h1>C Programming Questions & Answers</h1>
+            <h1>Programming Questions & Answers</h1>
             <p class="credit">by <a href="https://avishekojha.com.np" target="_blank"><span style="color: #007bff;">Avishek Ojha</span></a></p>
         </div>
     </header>
@@ -306,7 +424,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 5: Write a program to print the natural numbers from 1 to 10</h2>
             <p class="description">This program prints the natural numbers from 1 to 10.</p>
-            <div class="code-block">
+            <div id="q5" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     for (int i = 1; i <= 10; i++) {
@@ -321,7 +439,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 6: Write a program to display even numbers from 1 to 20 and display their sum</h2>
             <p class="description">This program displays even numbers from 1 to 20 and calculates their sum.</p>
-            <div class="code-block">
+            <div id="q6" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int sum = 0;
@@ -340,7 +458,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 7: Write a program to find out the sum of the cubes of the first 10 numbers</h2>
             <p class="description">This program calculates the sum of the cubes of the first 10 natural numbers.</p>
-            <div class="code-block">
+            <div id="q7" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int sum = 0;
@@ -356,7 +474,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 8: Display the following output</h2>
             <p class="description">This program displays a 5x5 grid with each row containing the numbers 10, 20, 30, 40, 50.</p>
-            <div class="code-block">
+            <div id="q8" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     for (int i = 0; i < 5; i++) {
@@ -373,7 +491,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 9: Write a program to display the following output</h2>
             <p class="description">This program displays a pattern with numbers decreasing from 5 to 1.</p>
-            <div class="code-block">
+            <div id="q9" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     for (int i = 5; i >= 1; i--) {
@@ -390,7 +508,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 10: Write a program to display odd numbers from 100 to 1</h2>
             <p class="description">This program displays all odd numbers from 100 down to 1.</p>
-            <div class="code-block">
+            <div id="q10" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     for (int i = 100; i >= 1; i--) {
@@ -407,7 +525,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 11: WAP to input any value and display that value in reverse order</h2>
             <p class="description">This program reverses the digits of an input number.</p>
-            <div class="code-block">
+            <div id="q11" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num, reversed = 0;
@@ -426,7 +544,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 12: WAP to input a positive number and find its factorial</h2>
             <p class="description">This program calculates the factorial of a positive number.</p>
-            <div class="code-block">
+            <div id="q12" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num, factorial = 1;
@@ -444,7 +562,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 13: WAP to read a number and check if the number is prime or not</h2>
             <p class="description">This program checks if an input number is a prime number.</p>
-            <div class="code-block">
+            <div id="q13" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num, isPrime = 1;
@@ -473,7 +591,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 14: WAP to find out even numbers from 1 to 100 and find their sum</h2>
             <p class="description">This program displays even numbers from 1 to 100 and calculates their sum.</p>
-            <div class="code-block">
+            <div id="q14" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int sum = 0;
@@ -492,7 +610,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 15: WAP to input a number and find out if it is a palindrome or not</h2>
             <p class="description">This program checks if the input number is a palindrome.</p>
-            <div class="code-block">
+            <div id="q15" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num, original, reversed = 0;
@@ -516,7 +634,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 16: WAP to input a positive number and find out the sum of its individual digits</h2>
             <p class="description">This program calculates the sum of the digits of a positive number.</p>
-            <div class="code-block">
+            <div id="q16" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num, sum = 0;
@@ -535,7 +653,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 17: WAP to input a number and check if it is an Armstrong number or not</h2>
             <p class="description">This program checks if the input number is an Armstrong number.</p>
-            <div class="code-block">
+            <div id="q17" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 #include &lt;math.h&gt;
 int main() {
@@ -566,7 +684,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 18: WAP to display the multiplication table of a given number</h2>
             <p class="description">This program displays the multiplication table for a given number.</p>
-            <div class="code-block">
+            <div id="q18" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int num;
@@ -583,7 +701,7 @@ int main() {
         <section class="question-answer">
             <h2>Question 19: WAP to display all prime numbers up to 1000</h2>
             <p class="description">This program displays all prime numbers up to 1000.</p>
-            <div class="code-block">
+            <div id="q19" class="code-block">
                 <pre><code>#include &lt;stdio.h&gt;
 int main() {
     int isPrime;
